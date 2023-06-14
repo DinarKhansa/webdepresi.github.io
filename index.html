@@ -33,8 +33,8 @@
                     <p class="my-4 lead fs-5" style="text-align: justify;">
                         Depresi adalah gangguan kesehatan mental yang memengaruhi perasaan ditandai dengan perasaan sedih yang mendalam, cara berpikir dan cara bertindak seseorang serta kehilangan minat terhadap hal-hal yang disukai. Depresi merupakan salah satu bentuk kondisi kesehatan mental yang dialami banyak orang dan sering kali muncul berbarengan dengan kecemasan.
                     </p>
-                    <button type="button" class="btn fw-bold text-white mt-4 btn-header" onclick="scrollToSection('sec-1')">Pelajari Tentang Depresi Sekarang!</button>
-                    <button type="button" class="btn fw-bold text-white mt-4 btn-header" onclick="scrollToSection('sec-6')">Cara Mengatasi Depresi</button>
+                    <!-- <button type="button" class="btn fw-bold text-white mt-4 btn-header" onclick="scrollToSection('sec-1')">Pelajari Tentang Depresi Sekarang!</button> -->
+                    <button type="button" class="btn fw-bold text-white mt-4 btn-header" onclick="scrollToSection('sec-6')" style="padding: 8px 5px;">Cara Mengatasi Depresi</button>
                 </div>
                 <div class="col-lg-6 phone-img d-none d-lg-flex justify-content-end gx-0 mt-3">
                     <img src="gambar/Picture9.png">
@@ -42,44 +42,43 @@
             </div>
         </div>
     </header>
-
     <section id="sec-1" class="py-5 bg-grey">
         <div class="container my-4">
             <div class="row">
-                <div class="col-md-3 text-center sec-1-item mb-4">
+                <div class="col-md-3 text-center sec-1-item mb-4" onclick="scrollToSection('sec-2')">
                     <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
                         <i class="far fa-heart fs-3"></i>
                     </span>
                     <p class="lead fw-bold">Tentang Depresi</p>
-                    <p class="fw-light mx-3 lh-lg">Depresi adalah gangguan kesehatan mental yang memengaruhi perasaan ditandai dengan perasaan sedih yang mendalam, cara berpikir dan cara bertindak seseorang serta kehilangan minat terhadap hal-hal yang disukai.</p>
-                    <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-2')">Read More</button>
+                    <p class="fw-light mx-3 lh-lg">Depresi adalah gangguan kesehatan mental yang memengaruhi perasaan ditandai dengan perasaan sedih yang mendalam, cara berpikir dan bertindak serta kehilangan minat terhadap hal-hal yang disukai.</p>
+                    <!-- <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-2')">Lanjut Baca</button> -->
                 </div>
 
-                <div class="col-md-3 text-center sec-1-item mb-5">
+                <div class="col-md-3 text-center sec-1-item mb-5" onclick="scrollToSection('sec-3')">
                     <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
                         <i class="far fa-heart fs-3"></i>
                     </span>
                     <p class="lead fw-bold">Jenis-Jenis Depresi</p>
                     <p class="fw-light mx-3 lh-lg">Depresi terbagi menjadi beberapa jenis berdasarkan tingkat keparahan dan apa yang menjadi penyebabnya.</p>
-                    <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-3')">Read More</button>
+                    <!-- <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-3')">Lanjut Baca</button> -->
                 </div>
 
-                <div class="col-md-3 text-center sec-1-item mb-5">
+                <div class="col-md-3 text-center sec-1-item mb-5"  onclick="scrollToSection('sec-4')" >
                     <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
                         <i class="far fa-heart fs-3"></i>
                     </span>
                     <p class="lead fw-bold">Gejala Depresi</p>
-                    <p class="fw-light mx-3 lh-lg">Masalah depresi tidak selalu menunjukkan gejala yang serupa. Ini bergantung pada tingkat keparahan pada setiap pengidapnya. </p>
-                    <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-4')">Read More</button>
+                    <p class="fw-light mx-3 lh-lg" >Masalah depresi tidak selalu menunjukkan gejala yang serupa. Ini bergantung pada tingkat keparahan pada setiap pengidapnya. </p>
+                    <!-- <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-4')">Lanjut Baca</button> -->
                 </div>
 
-                <div class="col-md-3 text-center sec-1-item mb-5">
+                <div class="col-md-3 text-center sec-1-item mb-5" onclick="scrollToSection('sec-5')">
                     <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
                         <i class="far fa-heart fs-3"></i>
                     </span>
                     <p class="lead fw-bold">Penyebab Depresi</p>
                     <p class="fw-light mx-3 lh-lg">Perlu diketahui bahwa depresi juga dikenal sebagai salah satu masalah kesehatan mental yang sangat kompleks. Tidak ada yang mengetahui dengan pasti apa penyebab seseorang mengalami depresi.</p>
-                    <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-5')">Read More</button>
+                    <!-- <button type="button" class="btn btn-green mt-2" onclick="scrollToSection('sec-5')">Lanjut Baca</button> -->
                 </div>
             </div>
         </div>
@@ -104,7 +103,7 @@
                         Sehebat apapun depresinya pasti bisa disembuhkan. Saraf pada otak bersifat elastis dan tidak akan berubah. Artinya ketika mengalami depresi berat itu dapat disembuhkan kembali. Solusi depresi berat dapat dilakukan dengan berpikir positif karena kondisi di luar tubuh manusia tidak bisa dikontrol, tapi di dalam otak dapat dikontrol.
                     </p>
 
-                    <button id="toggle-button" type="button" class="btn btn-green mt-2">Read More</button>
+                    <button id="toggle-button" type="button" class="btn btn-green mt-2">Lanjut Baca</button>
                 </div>
             </div>
         </div>
@@ -231,7 +230,7 @@
                 </div>
             </div>
 
-            <button id="toggle-button2" type="button" class="btn btn-green mt-2">Read More</button>
+            <button id="toggle-button2" type="button" class="btn btn-green mt-2">Lanjut Baca</button>
 
         </div>
     </section>
@@ -244,7 +243,7 @@
                     <p class="text-muted fw-light lh-lg my-4" style="text-align: justify;">Masalah depresi tidak selalu menunjukkan gejala yang serupa. Ini bergantung pada tingkat keparahan pada setiap pengidapnya. Tingkat ringan dari gangguan mental ini bisa mengganggu aktivitas, produktivitas, dan relasi sosial. Sementara itu, pada depresi yang parah, pengidapnya tidak dapat beraktivitas dan menjalin hubungan dengan orang lain, Umumnya depresi menunjukkan gejala fisik dan emosional tertentu.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="gambar/Picture2.png" class="img-fluid">
+                    <img src="gambar/Picture2.png" class="img-fluid" style="height: 350px; margin-left: 40px;">
                 </div>
             </div>
 
@@ -319,7 +318,7 @@
                 </div>
             </div>
 
-            <button id="toggle-button3" type="button" class="btn btn-green mt-2">Read More</button>
+            <button id="toggle-button3" type="button" class="btn btn-green mt-2">Lanjut Baca</button>
         </div>
     </section>
 
@@ -402,7 +401,11 @@
                     </ul>
                 </div>
                 <div class="col-lg-5">
-                    <img src="gambar/Picture10.png" class="img-fluid mt-10" style="width: 100%;">
+                    <ul>
+                        <li style="list-style-type: none;"><h4>Coba Dengarkan musik ini</h4></li>
+                        <li class="text-muted fw-light lh-lg my-4" style="list-style-type: none;"><p>Biarkan musik meditasi ini menyelimutimu, menghilangkan stres, memulihkan keseimbangan, dan membangkitkan kedamaian batin.</p></li>
+                        <li style="list-style-type: none;"><iframe width="470" height="315" src="https://www.youtube.com/embed/MxWb7t4VgH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+                    </ul>
                 </div>
             </div>
 
@@ -487,7 +490,7 @@
                 </div>
             </div>
 
-            <button id="toggle-button4" type="button" class="btn btn-green mt-2">Read More</button>
+            <button id="toggle-button4" type="button" class="btn btn-green mt-2">Lanjut Baca</button>
 
         </div>
     </section>
@@ -504,7 +507,7 @@
                     <div class="chat-container">
                         <!-- chats -->
                         <div id="chatbox">
-                        <iframe src="https://web.powerva.microsoft.com/environments/Default-d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401/bots/crdf2_bot1uPECdk/webchat?__version__=2" frameborder="0"></iframe>
+                        <iframe src="https://web.powerva.microsoft.com/environments/Default-d7b95ec4-9a7f-4260-b2e3-eb53f0ac8401/bots/crdf2_bot1uPECdk/webchat?__version__=2" frameborder="0" style="height: 490px;" width="100%"></iframe>
                         </div>
 
                     </div>
@@ -516,112 +519,12 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="chat.js"></script>
+<script src="javascript.js"></script>
 <!-- endchat -->
 
 
     <!-- boostrap bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-        function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            if (section) {
-                section.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        }
-    </script>
-
-    <script>
-        var buttonElement = document.getElementById("toggle-button");
-        var textElement = document.getElementById("additional-text");
-        var textElement2 = document.getElementById("additional-text-2");
-
-        var buttonElement2 = document.getElementById("toggle-button2");
-        var jenisDepresi4 = document.getElementById("jenisDeprisi4-text");
-        var jenisDepresi5 = document.getElementById("jenisDeprisi5-text");
-        var jenisDepresi6 = document.getElementById("jenisDeprisi6-text");
-        var jenisDepresi7 = document.getElementById("jenisDeprisi7-text");
-
-        var buttonElement3 = document.getElementById("toggle-button3");
-        var gejala1 = document.getElementById("gejala1-text");
-        var gejala2 = document.getElementById("gejala2-text");
-        var gejala3 = document.getElementById("gejala3-text");
-
-        var buttonElement4 = document.getElementById("toggle-button4");
-        var caraMengatasi1 = document.getElementById("caraMengatasi1-text");
-        var caraMengatasi2 = document.getElementById("caraMengatasi2-text");
-        var caraMengatasi3 = document.getElementById("caraMengatasi3-text");
-        var caraMengatasi4 = document.getElementById("caraMengatasi4-text");
-        var caraMengatasi5 = document.getElementById("caraMengatasi5-text");
-
-        buttonElement.addEventListener("click", toggleText);
-        buttonElement2.addEventListener("click", toggleText2);
-        buttonElement3.addEventListener("click", toggleText3);
-        buttonElement4.addEventListener("click", toggleText4);
-
-        function toggleText() {
-            if (textElement.style.display === "none") {
-                textElement.style.display = "block";
-                textElement2.style.display = "block";
-                buttonElement.textContent = "Show Less";
-            } else {
-                textElement.style.display = "none";
-                textElement2.style.display = "none";
-                buttonElement.textContent = "Read More";
-            }
-        }
-
-        function toggleText2() {
-            if (jenisDepresi4.style.display === "none") {
-                jenisDepresi4.style.display = "block";
-                jenisDepresi5.style.display = "block";
-                jenisDepresi6.style.display = "block";
-                jenisDepresi7.style.display = "block";
-                buttonElement2.textContent = "Show Less";
-            } else {
-                jenisDepresi4.style.display = "none";
-                jenisDepresi5.style.display = "none";
-                jenisDepresi6.style.display = "none";
-                jenisDepresi7.style.display = "none";
-                buttonElement2.textContent = "Read More";
-            }
-        }
-
-        function toggleText3() {
-            if (gejala1.style.display === "none") {
-                gejala1.style.display = "block";
-                gejala2.style.display = "block";
-                gejala3.style.display = "block";
-                buttonElement3.textContent = "Show Less";
-            } else {
-                gejala1.style.display = "none";
-                gejala2.style.display = "none";
-                gejala3.style.display = "none";
-                buttonElement3.textContent = "Read More";
-            }
-        }
-
-        function toggleText4() {
-            if (caraMengatasi1.style.display === "none") {
-                caraMengatasi1.style.display = "block";
-                caraMengatasi2.style.display = "block";
-                caraMengatasi3.style.display = "block";
-                caraMengatasi4.style.display = "block";
-                caraMengatasi5.style.display = "block";
-                buttonElement4.textContent = "Show Less";
-            } else {
-                caraMengatasi1.style.display = "none";
-                caraMengatasi2.style.display = "none";
-                caraMengatasi3.style.display = "none";
-                caraMengatasi4.style.display = "none";
-                caraMengatasi5.style.display = "none";
-                buttonElement4.textContent = "Read More";
-            }
-        }
-    </script>
-
 
 </body>
 

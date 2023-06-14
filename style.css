@@ -14,7 +14,7 @@ ul li{
     list-style-type: disc;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
 }
 .display-1{
     letter-spacing: 1px;
@@ -25,7 +25,7 @@ ul li{
 .btn{
     border: 2px solid #fff;
     border-radius: 1.5rem;
-    padding: 0.6rem 0;
+    padding: 8px 5px;
     width: 280px;
 }
 .bg-grey{
@@ -50,7 +50,7 @@ ul li{
     background-color: var(--green);
     color: #fff;
     padding: 0.55rem 0;
-    width: 230px;
+    width: 120px;
 }
 .btn-green:hover{
     color: var(--green);
@@ -71,12 +71,18 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
-.col-lg-5 img {
-    max-width: 100%;
-    height: auto;
-    margin: auto;
+.col-md-3{
+    padding-top: 30px;
+}
+
+.col-md-3:hover {
+ background-color: #16db93;
+ transition: all .6s ease;
+-webkit-transition: all .6s ease;
+
 }
 
 /* header */
@@ -144,12 +150,6 @@ ul li{
     position: relative;
 }
 
-iframe {
-    float: none;
-    height: 490px;
-    width: 100%;
-
-}
 .chat-container {
     max-height: 500px;
     width: 100%;
